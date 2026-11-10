@@ -2,7 +2,7 @@
 import { SwanArtwork } from './SwanScene'
 
 const delayed = (seconds: number) => ({ '--line-delay': `${seconds}s` }) as CSSProperties
-
+//
 export default function DedicationScene({ active, onDeparture }: { active: boolean; onDeparture: () => void }) {
   return (
     <section className="dedication-scene" aria-hidden={!active} aria-label="مشهد التخرج من قسم الأشعة مع بجعة تتمايل برفق وتسبح ثم تبتعد">
